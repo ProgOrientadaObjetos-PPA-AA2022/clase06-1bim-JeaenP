@@ -51,17 +51,19 @@ public class Ejecutor {
                     numeroDeDoctores,
                     presupuestoAnio);
 
-            System.out.printf("Datos Hospital\n"
-                    + "Nombre del hospital: %s\n"
-                    + "Ciudad del hospital: %s\n"
-                    + "Número de camas: %d\n"
-                    + "Número de doctores: %d\n"
-                    + "Presupuesto anual: %.2f\n",
-                    hosp1.obtenerNombreHospital(),
-                    hosp1.obtenerCiudadHospital(),
-                    hosp1.obtenerNumeroCamas(),
-                    hosp1.obtenerNumeroDoctores(),
-                    hosp1.obtenerPresupuestoAnual());
+//            System.out.printf("Datos Hospital\n"
+//                    + "Nombre del hospital: %s\n"
+//                    + "Ciudad del hospital: %s\n"
+//                    + "Número de camas: %d\n"
+//                    + "Número de doctores: %d\n"
+//                    + "Presupuesto anual: %.2f\n",
+//                    hosp1.obtenerNombreHospital(),
+//                    hosp1.obtenerCiudadHospital(),
+//                    hosp1.obtenerNumeroCamas(),
+//                    hosp1.obtenerNumeroDoctores(),
+//                    hosp1.obtenerPresupuestoAnual());
+            System.out.printf("%s\n", hosp1);
+            
         } else {
             if (opcion == 2) {
                 // Ingreso de datos para el tipo seleccionado
@@ -87,6 +89,7 @@ public class Ejecutor {
                         hosp2.obtenerNumeroCamas(),
                         hosp2.obtenerNumeroDoctores(),
                         hosp2.obtenerPresupuestoAnual());
+                
             } else {
                 if (opcion == 3) {
                     // Ingreso de datos para el tipo seleccionado
